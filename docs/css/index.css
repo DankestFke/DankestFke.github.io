@@ -1,0 +1,16 @@
+@font-face {
+    font-family: krunker;
+    src: url(https://dl.dropboxusercontent.com/s/gah86a65ryfelaf/FFFFORWA.TTF?dl=0);
+}
+
+* {
+    font-family: krunker;
+}
+
+.titleone {
+    color: black;
+}
+
+#one > p {
+    color: #151515;
+}
