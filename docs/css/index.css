@@ -16,7 +16,8 @@
 }
 
 .navbar {
-    display: flex;
+    display: inline-block;
+    overflow: hidden;
     list-style-type: none;
     background-color: black;
     color: white;
