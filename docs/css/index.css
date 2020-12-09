@@ -14,3 +14,15 @@
 #one > p {
     color: #151515;
 }
+
+.navbar {
+    list-style-type: none;
+    background-color: black;
+    color: white;
+}
+
+#navbar {
+    list-style-type: none;
+    background-color: black;
+    color: white
+}
