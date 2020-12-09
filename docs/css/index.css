@@ -5,6 +5,7 @@
 
 * {
     font-family: krunker;
+    margin: 0;
 }
 
 .titleone {
@@ -15,12 +16,23 @@
     color: #151515;
 }
 
-.navbar {
-    display: inline-block;
+.nav {
+    display: flex;
     overflow: hidden;
     list-style-type: none;
     background-color: black;
-    color: white;
     padding: 0;
     margin: 0;
+}
+
+.navBar {
+    display: inline-block;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.navBar:hover {
+    color: black;
+    background-color: white;
 }
