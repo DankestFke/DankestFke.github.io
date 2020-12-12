@@ -10,7 +10,7 @@ RewriteCond %{REQUEST_FILENAME} !-d
 
 # Check for the file in the drectory
 
-RewriteCond %{REQUEST_FILENAME}/.html -f
+RewriteCond %{REQUEST_FILENAME}\.html -f
 
 # Ok Buddy
 
