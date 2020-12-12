@@ -57,3 +57,7 @@ p {
 .border {
     text-shadow: var(--bg-shadow) -1px -1px 0px, var(--bg-shadow) 1px -1px 0px, var(--bg-shadow) -1px 1px 0px, var(--bg-shadow) 1px 1px 0px, var(--bg-shadow) -2px -2px 0px, var(--bg-shadow) 2px -2px 0px, var(--bg-shadow) -2px 2px 0px, var(--bg-shadow) 2px 2px 0px;
 }
+
+main {
+    padding: 1rem;
+}
