@@ -14,9 +14,21 @@
     <title>feb</title> 
     <link rel="icon" href="krunker/img/logo.png">
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script type="text/javascript">
+        function DownloadAndRedirect()
+        {
+           var DownloadURL = "test/settings.txt";
+           var RedirectURL = "test.html";
+           var RedirectPauseSeconds = 9;
+           location.href = DownloadURL;
+           setTimeout("DoTheRedirect('"+RedirectURL+"')",parseInt(RedirectPauseSeconds*1000));
+        }
+        function DoTheRedirect(url) { window.location=url; }
+        </script>
+        
         
 </head>
 
     <body>
-        <a href="test/settings.txt">Download?</a>
+        <a href="javaScript:DownloadAndRedirect()">Download?</a>
 </body>
