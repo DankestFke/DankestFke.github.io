@@ -5,59 +5,10 @@
     src: url(https://dl.dropboxusercontent.com/s/gah86a65ryfelaf/FFFFORWA.TTF?dl=0);
 }
 
-:root {
-    --accent-color: #0041ff;
-    --accent-color-shadow: #0015ff;
-    --text-color: #f5f5f5;
-    --bg-color: #202020;
-    --bg-shadow: #151515;
-}
-
-* {
-    font-family: krunker;
-    color: var(--text-color);
-}
-
-html, body {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -o-user-select: none;
-    user-select: none;
-}
-
-body {
-    background-color: var(--bg-color);
-}
-
-::-webkit-scrollbar {
-    width: 0.25rem;
-}
-  
-::-webkit-scrollbar-track {
-    background: transparent;
-}
-  
-::-webkit-scrollbar-thumb {
-    background: var(--accent-color);
-}
-
-p {
-    text-align: center;
-}
-
 .center {
     text-align: center
 }
 
 .border {
     text-shadow: var(--bg-shadow) -1px -1px 0px, var(--bg-shadow) 1px -1px 0px, var(--bg-shadow) -1px 1px 0px, var(--bg-shadow) 1px 1px 0px, var(--bg-shadow) -2px -2px 0px, var(--bg-shadow) 2px -2px 0px, var(--bg-shadow) -2px 2px 0px, var(--bg-shadow) 2px 2px 0px;
-}
-
-main {
-    padding: 1rem;
 }
