@@ -1,0 +1,13 @@
+@import url('https://dankestfke.github.io/css/index.css');
+
+@font-face {
+    font-family: krunker;
+    src: url(https://dl.dropboxusercontent.com/s/gah86a65ryfelaf/FFFFORWA.TTF?dl=0);
+}
+
+.error {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}

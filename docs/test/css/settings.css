@@ -1,0 +1,35 @@
+@import url('https://dankestfke.github.io/css/index.css');
+
+@font-face {
+    font-family: krunker;
+    src: url(https://dl.dropboxusercontent.com/s/gah86a65ryfelaf/FFFFORWA.TTF?dl=0);
+}
+
+main {
+    margin-left: 0;
+    padding: 1rem;
+}
+
+.title {
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.description {
+    margin-left: 2rem;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.idkr {
+    display: block;
+    word-wrap: break-word;
+    background-color: #101010;
+    padding: 15px;
+}
+
+#settings {
+    font-family: monospace;
+    font-size: 10px;
+    user-select: text;
+}

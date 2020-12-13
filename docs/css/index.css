@@ -3,7 +3,8 @@
     --accent-color-shadow: #0015ff;
     --text-color: #f5f5f5;
     --bg-color: #202020;
-    --bg-shadow: #151515
+    --bg-shadow: #151515;
+    --bg-bg: #101010;
 }
 
 @font-face {
@@ -90,11 +91,11 @@ body {
 }
 
 .navLink:hover {
-    background-color: #101010;
+    background-color: var(--bg-bg);
 }
 
 .navLinkL:hover {
-    background-color: #101010;
+    background-color: var(--bg-bg);
 }
 
 .navText {
@@ -112,7 +113,7 @@ body {
     text-transform: uppercase;
     text-align: center;
     color: var(--text-color);
-    background: #101010;
+    background: var(--bg-bg);
     font-size: 1.5rem;
     letter-spacing: 0.3ch;
     width: 100%;
@@ -155,6 +156,7 @@ body {
 main {
     margin-left: 5rem;
     padding: 1rem;
+    min-height: calc(100vh - 152px);
 }
 
 .title {
@@ -207,5 +209,12 @@ main {
 }
 
 #buttons {
+    text-align: center;
+}
+
+.footer {
+    margin-left: 5rem;
+    padding: 1rem;
+    background-color: var(--bg-bg);
     text-align: center;
 }

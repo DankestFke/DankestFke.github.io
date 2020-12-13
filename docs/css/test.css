@@ -1,0 +1,10 @@
+@import url('https://dankestfke.github.io/css/index.css');
+
+@font-face {
+    font-family: krunker;
+    src: url(https://dl.dropboxusercontent.com/s/gah86a65ryfelaf/FFFFORWA.TTF?dl=0);
+}
+
+a {
+    text-decoration: none;
+}
