@@ -5,6 +5,14 @@
     src: url(https://dl.dropboxusercontent.com/s/gah86a65ryfelaf/FFFFORWA.TTF?dl=0);
 }
 
+* {
+    color: var(--text-color);
+}
+
 a {
     text-decoration: none;
+}
+
+.test {
+    background-color: transparent;
 }

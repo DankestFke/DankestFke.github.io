@@ -9,11 +9,16 @@
         <meta property="og:title" content="Settings">
         <meta property="og:image" content="https://dankestfke.github.io/img/logo.png">
         <meta property="og:description" content="Feb's Settings">
+        <script src="https://dankestfke.github.io/js/copy.js"></script>
+        <script src="js/download.js"></script>
     </head>
     <body>
+        <div id="section">
         <h3 class="title">Settings</h3>
         <p class="description">idkr Client:</p>
-        <main>
+        <div id="copyButton" class="textBorder copy" onclick="downloadText(settings.idkr, 'settings.txt')">Download</div>
+        </div>
+        <main class="settings">
             <div class="idkr">
             <code class="settings">
                 <span id="settings">

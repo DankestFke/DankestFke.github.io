@@ -14,25 +14,7 @@
     <link rel="icon" href="img/logo.png">
     <link rel="stylesheet" type="text/css" href="css/index.css">
 }
-<script>
-// Made By Hitthemoney
 
-function copy(value) {
-    var input = document.createElement("input"); // creates input element
-    document.body.appendChild(input); // appends input to the body
-    input.select(); // selects
-    input.setSelectionRange(0, 99999); // for mobile
-    document.execCommand("copy"); // copies
-    input.remove(); // removes from DOM
-}
-
-function copyElement(value, element) {
-    copy(value); // copies value
-    var oldVal = element.innerHTML; // stores old value
-    element.innerHTML = "Copied"; // changes innerHTML value to "Copied"
-    setTimeout(function () {element.innerHTML = oldVal}, 1000) // after a 1000ms delay, it reverts the text back to normal
-}
-</script>
   </head>
   <body>
     <nav class="navBar">
@@ -55,6 +37,11 @@ function copyElement(value, element) {
       <li class="navItem">
         <a class="navLink" href="discord">
           <span class="navText">CSS</span>
+        </a>
+      </li>
+      <li class="navItem">
+        <a class="navLink" href="settings">
+          <span class="navText">Settings</span>
         </a>
       </li>
       <li class="navItem">
