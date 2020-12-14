@@ -1,3 +1,5 @@
+// Hitthemoney#1337
+
 function copy(value) {
     var input = document.createElement("input"); // creates input element
     document.body.appendChild(input); // appends input to the body
