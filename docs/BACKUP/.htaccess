@@ -1,5 +1,17 @@
 ErrorDocument 404 /404.html
+
+# mod-rewrite starts here
+
 RewriteEngine on
+
+# idk
+
 RewriteCond %{REQUEST_FILENAME} !-d
+
+# Check for the file in the drectory
+
 RewriteCond %{REQUEST_FILENAME}\.html -f
-RewriteRule ^(.*)$ $1.html [NC,L]
+
+# Ok Buddy
+
+RewriteRule ^(.*)$ $1.html [NC, L]

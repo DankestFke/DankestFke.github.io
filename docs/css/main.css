@@ -1,0 +1,13 @@
+@font-face {
+    font-family: Nunito Sans;
+    src: url(https://fonts.gstatic.com/s/nunitosans/v6/pe0qMImSLYBIv1o4X1M8cceyI9tScg.woff2) format("woff2");
+}
+
+* {
+    color: #fff;
+    font-family: Nunito Sans;
+}
+
+body {
+    background-color: #000;
+}
