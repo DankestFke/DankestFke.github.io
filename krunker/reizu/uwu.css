@@ -1336,6 +1336,10 @@ input:checked+.optCheck {
     background-color: var(--ingame-bg-color);
 }
 
+#chatList {
+	background-color: var(--ingame-bg-color)
+}
+
 #chatInputHolder {
 	width: 400px;
 	grid-template-columns: 50px auto
