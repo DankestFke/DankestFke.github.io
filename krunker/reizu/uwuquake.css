@@ -76,9 +76,9 @@
 /* timer */
 
 #timerHolder.topLeftOld {
-	width: 200px;
+	width: 200px !important;
 	height: 80px;
-	background-color: transparent;
+	background-color: transparent !important;
 	will-change: unset;
 }
 
