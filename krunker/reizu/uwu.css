@@ -1851,7 +1851,10 @@ input:checked+.optCheck {
 }
 
 #gameMessage {
+	position: fixed;
+	left: 50%;
     top: 70px;
+	transform: translateX(-50%);
     font-size: 18px;
     text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
 }
