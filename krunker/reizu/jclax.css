@@ -1,0 +1,187 @@
+@import url(https://dankestfke.github.io/krunker/reizu/uwuquake.css);
+
+:root {
+    --text-color: #ff9ed0;
+	--menu-bg-color-secondary: rgba(255,255,255, .25);
+	--accent-color: #fe93a7;
+	--health-color: #fe93a7;
+	--ammo-color: #fe93a7;
+	--premium-color: #fe93a7;
+	--verified-color: #fe93a7;
+	--ingame-bg-color: transparent;
+	--menu-bg-color: transparent;
+	--text-transform: lowercase;
+}
+
+@font-face {
+	font-family: gamefont;
+	src: url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_c5H3gnD_g.woff2);
+}
+
+@font-face {
+	font-family: hpammo;
+	src: url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_c5H3gnD_g.woff2);
+}
+
+/*  */
+#subLogoButtons {
+	bottom: 80px;
+	transform: translateX(-50%);
+}
+
+#menuItemContainer {
+	top: unset;
+	bottom: 50px;
+}
+
+#uiBase.onMenu #spectButton {
+    z-index: 1;
+    width: 96px;
+    top: calc(50% - 50px);
+	left: calc(50% - 52.5px);
+}
+
+#spectButton span[style*="font-size:15px"] {
+    font-size: 0 !important
+}
+
+#spectButton .switchsml {
+    margin: 0;
+    position: absolute;
+    width: 100%;
+	float: unset;
+}
+
+.sliderSml {
+    opacity: 1;
+    background-color: transparent;
+    font-size: 20px;
+    width: 0;
+    height: 0;
+}
+
+.sliderSml::before {
+	display: block;
+	content: 'Spectate';
+	font-size: 23px;
+	background-color: transparent;
+	transition-duration: 0.25s;
+	font-family: gamefont;
+	transform: translateX(0px);
+	top: 0;
+    left: 0;
+}
+
+input:checked+.sliderSml::before {
+    content: "Spectating";
+    font-size: 23px;
+    color: var(--accent-color) !important;
+    transform: translateX(-15px);
+    font-family: gamefont;
+	top: 0;
+    left: 0;
+}
+input:checked+.sliderSml {
+    background-color: transparent !important;
+}
+
+/*  */
+
+.settName, .settNameSmall {
+    border-bottom: unset
+}
+
+.setHed {
+	margin: unset;
+	border: unset
+}
+
+#timerHolder.topLeftOld {
+    top: 10px;
+}
+
+#matchInfo.topLeftOld {
+    display: inline-flex !important;
+    text-align: center;
+    position: fixed;
+    transform: translateX(-50%);
+    top: 0;
+    left: 50%;
+	width: 220px;
+	height: 90px;
+    padding: 0;
+    padding-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    border-radius: 0;
+    font-size: 18px !important;
+	background-color: transparent;
+	will-change: unset;
+    text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
+}
+
+#matchInfo div {
+    margin-left: 5px;
+	color: #fff !important
+}
+
+/* heatlh */
+
+#bottomLeftHealth:after {
+    content: 'Health' !important;
+    display: flex !important;
+    flex-direction: column-reverse !important;
+    font-size: 32px !important;
+    align-items: center;
+	margin-top: -30px
+}
+
+#bottomLeftHealth {
+    display: flex;
+	left: calc(50% - 15%);
+    flex-direction: column;
+    align-items: center;
+	text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
+    text-align: center !important;
+    width: 100px;
+	font-size: 180px;
+}
+
+#bottomLeftChallIcon {
+    display: none !important;
+}
+
+/* ammo */
+
+#ammoVal {
+    display: flex;
+	right: calc(50% - 15%);
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+	font-size: 180px;
+    margin: unset !important
+}
+
+#ammoVal:after {
+    content: 'Ammo' !important;
+    display: flex !important;
+    flex-direction: column-reverse !important;
+    font-size: 32px !important;
+	margin-top: -30px
+}
+
+#ammoIcon {
+    display: none !important;
+}
+
+/* top right */
+
+.topRightCounters {
+    position: static
+}
