@@ -1435,6 +1435,11 @@ input:checked+.optCheck {
     display: none;
 }
 
+#timerInner.topLeftOld {
+	padding: unset;
+	margin: unset;
+}
+
 /* score */
 
 #teamScores {
