@@ -1248,6 +1248,10 @@ input:checked+.optCheck {
     border-radius: 0px;
 }
 
+#itemSearchH {
+	background: var(--menu-bg-color)
+}
+
 .skinColorItem {
     width: 24px;
     height: 24px;
