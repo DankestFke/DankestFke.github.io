@@ -1356,12 +1356,31 @@ input:checked+.optCheck {
 
 /* scroll bar */
 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 10px !important;
+    background-color: transparent !important;
+}
+
 ::-webkit-scrollbar {
-    width: 0px;
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    visibility: hidden;
+    border-radius: 10px !important;
+    background: var(--accent-color);
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
 
 #chatList::-webkit-scrollbar {
-    width: 0px;
+    width: 5px;
+}
+
+#chatList::-webkit-scrollbar-thumb {
+    visibility: visible;
 }
 
 /* top left */ 
