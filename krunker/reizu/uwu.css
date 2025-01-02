@@ -15,8 +15,6 @@
     --menu-bg-color-secondary: rgba(230, 230, 230, 1);
     --ingame-bg-color: rgba(15, 15, 15, .2);
     --text-transform: none;
-	
-    --div-grey: transparent;
 }
 
 /* fonts */
@@ -114,7 +112,7 @@ b span {
     display: none !important;
 }
 
-.greyInner, .greyInlineInner, .greyInlineInnerMid {
+.greyInner, .greyInlineInner, .greyInlineInnerMid, #timerInner.topLeftOld {
 	padding: unset;
 	margin: unset;
 }
@@ -1403,7 +1401,7 @@ input:checked+.optCheck {
 
 /* timer */
 
-#timerDisplay {
+#timerHolder.topLeftOld {
     text-align: center;
     position: fixed;
     transform: translateX(-50%);
@@ -1425,7 +1423,7 @@ input:checked+.optCheck {
     will-change: unset;
 }
 
-#timerVal {
+#timerVal.topLeftOld {
     font-size: 28px;
     padding-left: 0;
     will-change: unset;
@@ -1846,7 +1844,9 @@ input:checked+.optCheck {
 }
 
 #gameMessage {
-    top: 70px;
+	position: fixed;
+	left: 50%;
+	transform: translateX(-50%);
     font-size: 18px;
     text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
 }
@@ -1860,4 +1860,13 @@ input:checked+.optCheck {
 #accManagerBtn {
     margin: 0 !important;
 	box-shadow: none !important;
+}
+
+#instructionHolder,
+#fullMenHider  {
+    display: none!important
+}
+
+#spectateUI, #inGameUI {
+    display: block!important
 }
