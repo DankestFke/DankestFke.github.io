@@ -85,6 +85,40 @@ input:checked+.sliderSml {
     background-color: transparent !important;
 }
 
+/* customize button */
+
+#menuClassContainer {
+    bottom: 250px;
+    display: flex;
+    align-items: center
+}
+
+#menuClassContainer div[style*="inline-block"] {
+    opacity: 0;
+    transition: all .25s;
+    text-align: center
+}
+
+#menuClassContainer:hover div[style*="inline-block"] {
+    opacity: 1
+}
+
+#customizeButton {
+    height: 450px;
+    position: fixed;
+    right: 0;
+    bottom: 200px;
+    font-size: 0 !important;!i;!;
+}
+
+#classPreviewCanvas {
+    margin-right: -275px;
+}
+
+#menuClassIcn {
+    display: none
+}
+
 /*  */
 
 .settName, .settNameSmall {
