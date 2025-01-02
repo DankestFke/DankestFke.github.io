@@ -1423,12 +1423,12 @@ input:checked+.optCheck {
 /* timer */
 
 #timerHolder.topLeftOld {
-    text-align: center;
+    text-align: center !important;
     position: fixed;
     transform: translateX(-50%);
     top: 0;
     left: 50%;
-    width: 150px;
+    width: 150px !important;
     height: 35px;
     padding: 0;
     padding-left: 0;
@@ -1438,9 +1438,9 @@ input:checked+.optCheck {
     margin-left: 0;
     margin-top: 0;
     margin-right: 0;
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
     border-radius: 0;
-    background-color: var(--ingame-bg-color);
+    background-color: var(--ingame-bg-color) !important;
     will-change: unset;
 }
 
@@ -1468,7 +1468,7 @@ input:checked+.optCheck {
     transform: translateX(-50%);
     width: 150px;
     height: 25px;
-    padding: 10px;
+    padding: 0;
     padding-left: 0;
     padding-top: 0;
     padding-right: 0;
@@ -1479,6 +1479,10 @@ input:checked+.optCheck {
     margin-bottom: 0;
     border-radius: 0;
     background-color: transparent;
+}
+
+#teamScores[style*="inline-block"] {
+	display: inline-flex
 }
 
 .tScore {
@@ -1533,7 +1537,7 @@ input:checked+.optCheck {
     left: 50%;
     width: 75px;
     height: 25px;
-    margin-right: 0;
+    margin: 0;
     background-color: var(--accent-color);
     opacity: 50%;
     z-index: 1;
@@ -1872,7 +1876,7 @@ input:checked+.optCheck {
 #gameMessage {
 	position: fixed;
 	left: 50%;
-    top: 70px;
+    top: 85px;
 	transform: translateX(-50%);
     font-size: 18px;
     text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
