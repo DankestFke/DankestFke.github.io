@@ -9,6 +9,7 @@
 	--menu-bg-color: rgba(15, 15, 15, .2);
 	--menu-bg-color-secondary: rgba(0, 0, 0, .5);
 	--ingame-bg-color: rgba(15, 15, 15, .2);
+	--text-color: rgba(255,255,255,.4);
 	--text-transform: lowercase;
 }
 
@@ -155,7 +156,7 @@ input:checked+.sliderSml {
     font-size: 18px !important;
 	background-color: transparent;
 	will-change: unset;
-    text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
+    text-shadow: 2px 2px 3px rgba(30, 30, 30, .5) !important;
 }
 
 #matchInfo div {
@@ -171,7 +172,8 @@ input:checked+.sliderSml {
     flex-direction: column-reverse !important;
     font-size: 32px !important;
     align-items: center;
-	margin-top: -30px
+	margin-top: -30px;
+    text-transform: var(--text-transform)
 }
 
 #bottomLeftHealth {
@@ -206,7 +208,8 @@ input:checked+.sliderSml {
     display: flex !important;
     flex-direction: column-reverse !important;
     font-size: 32px !important;
-	margin-top: -30px
+	margin-top: -30px;
+	text-transform: var(--text-transform)
 }
 
 #ammoIcon {
