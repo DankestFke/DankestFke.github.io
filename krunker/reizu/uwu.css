@@ -1868,6 +1868,7 @@ input:checked+.optCheck {
 
 #reloadMsg {
     background: transparent !important;
+	border: unset !important;
 }
 
 #weapHolder {
