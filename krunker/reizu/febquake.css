@@ -107,10 +107,11 @@
 
 #bottomLeftChallIcon {
 	margin: 0 25px;
+	bottom: -10px;
 }
 
 #ammoIcon {
-	bottom: -7.5px;
+	bottom: -17.5px;
 	margin: 0 22.5px;
 }
 
