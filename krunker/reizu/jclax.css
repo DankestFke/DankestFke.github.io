@@ -1,15 +1,14 @@
 @import url(https://dankestfke.github.io/krunker/reizu/uwuquake.css);
 
 :root {
-    --text-color: #ff9ed0;
-	--menu-bg-color-secondary: rgba(255,255,255, .25);
-	--accent-color: #fe93a7;
-	--health-color: #fe93a7;
-	--ammo-color: #fe93a7;
-	--premium-color: #fe93a7;
-	--verified-color: #fe93a7;
-	--ingame-bg-color: transparent;
-	--menu-bg-color: transparent;
+	--accent-color: #ff3030;
+	--health-color: #1fff2a;
+	--ammo-color: #69fcff;
+	--premium-color: #fbc02d;
+	--verified-color: #40c4ff;
+	--menu-bg-color: rgba(15, 15, 15, .2);
+	--menu-bg-color-secondary: rgba(0, 0, 0, .5);
+	--ingame-bg-color: rgba(15, 15, 15, .2);
 	--text-transform: lowercase;
 }
 
