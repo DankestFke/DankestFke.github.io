@@ -1,0 +1,162 @@
+@import url(https://dankestfke.github.io/krunker/reizu/uwuquake.css);
+:root {
+/*    --text-color: #3f3f3f;
+    --menu-bg-color: rgba(255, 255, 255, 1);
+    --menu-bg-color-secondary: rgba(230, 230, 230, 1); */
+    --accent-color: #284bd2;
+    --health-color: #fff;
+    --ammo-color: #fff;
+    --premium-color: #284bd2;
+    --verified-color: #284bd2;
+    --ingame-bg-color: rgba(15, 15, 15, .2);
+	--text-color: #c0c0c0;
+	--text-color-rgb: 192, 192, 192;
+	--menu-bg-color: rgba(25, 25, 25, 1);
+	--menu-bg-color-secondary: rgba(50, 50, 50, 1);
+    --text-transform: none;
+}
+
+@font-face {
+    font-family: gamefont;
+    src: url(https://raw.githubusercontent.com/South-Paw/typeface-vag-rounded/master/files/vag-rounded-400.woff2);
+}
+
+@font-face {
+	font-family: hpammo;
+	src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3gnD_g.woff2);
+}
+
+/* Feb Edit */
+
+.topRightCounters {
+	position: static
+}
+
+/* Weapon Display, Epic One */
+
+#weapHolder[style*="grid"] {
+	display: block!important
+}
+
+#weapHolder {
+    bottom: 15px;
+    right: 50%;
+    transform: translateX(50%)
+}
+
+.weapItem {
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transform: translateX(50%);
+	background: transparent
+}
+
+.weapIcon {
+	opacity: 0 !important;	
+	transition-delay: 0.3s ease-in-out;
+	transform: scale(1.35)
+}
+
+.weapItem[style*="1"] .weapIcon {
+	opacity: 1!important;
+}
+
+#weapIconMel {
+    margin: 0 !important;
+    margin-bottom: -15px!important;
+}
+
+.weapKey {
+    display: none;
+}
+
+.weapSkin {
+	display: none
+}
+
+#bottomLeftPlayerRight, #ammoHolder .greyInner {
+	position: fixed;
+	display: inline-flex;
+	flex-direction: row-reverse;
+	bottom: 45px;
+	width: 100px;
+	align-items: baseline;
+}
+
+#bottomLeftPlayerRight {
+	left: calc(50% - 210px);
+	justify-content: flex-start
+}
+
+#ammoHolder .greyInner {
+	right: calc(50% - 200px);
+	justify-content: flex-end
+}
+
+#bottomLeftChallIcon, #ammoIcon {
+	display: flex !important;
+	position: relative;
+	width: 35px;
+	height: auto;
+	left: 0px;
+	right: unset;
+	bottom: 0;
+	filter: brightness(0) invert(1) drop-shadow(2px 2px 3px rgba(30, 30, 30, .5));
+}
+
+#bottomLeftChallIcon {
+	margin: 0 25px;
+}
+
+#ammoIcon {
+	bottom: -7.5px;
+	margin: 0 22.5px;
+}
+
+#bottomLeftHealth, #ammoVal {
+	display: flex;
+	position: relative;
+	width: max-content;
+	left: unset;
+	right: 0;
+	bottom: 0;
+	line-height: 25px;
+	font-size: 96px;
+}
+
+#bottomLeftHealth {
+	text-align: right;
+}
+
+#ammoVal {
+	text-align: left;
+	margin: unset
+}
+
+/* Dark Mode Fix */
+
+.setHed {
+	border: unset
+}
+
+.settName, .settNameSmall {
+	border-bottom : unset 
+}
+
+input[type=number] {
+	border: unset !important;
+	padding: 6px
+}
+
+.openCollection.material-icons {
+	font-size: 0 !important;
+	padding: unset !important;
+	background: transparent !important;
+}
+.openCollection.material-icons::after {
+	content: "add_circle";
+	font-size: 38px;
+	line-height: 29px;
+	font-family: 'Material Icons Outlined';
+}
